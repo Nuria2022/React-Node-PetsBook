@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500&family=Roboto:ital,wght@1,100&family=Taviraj:wght@100;300;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    background-color: #18122e;
+    color:whitesmoke
+
+    
+}
+
+h1,h2,h3,h4 {
+
+    color: #508c91;
+}
+
+section {
+  min-height: 75vh;
+}
+
+a {
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover{
+    color: pink;
+    padding: 2px 0;
+    border-bottom: 2px solid pink;
+
+}
+
+strong {
+    color: pink;
+}
+
+button {
+    border: none;
+    padding: 0.8rem;
+    background-color:  #508c91;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    color: whitesmoke;
+}

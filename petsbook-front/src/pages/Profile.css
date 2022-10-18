@@ -1,0 +1,24 @@
+.profile {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.profile img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: whitesmoke;
+
+}
+
+.profile form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}

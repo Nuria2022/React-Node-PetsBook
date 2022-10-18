@@ -1,0 +1,31 @@
+.petcard {
+    
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.8rem;
+    text-align: justify;
+    width: 250px;
+    background-color: #100c1f;
+    border-radius: 0.5rem;
+    min-height: 400px;
+    margin-bottom: 5rem;
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+
+.info-petcard:hover {
+    box-shadow: 3px 3px 8px white;
+    transform: translateY(-5%);
+    
+  }
+
+
+.petcard img {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 220px;
+}
+

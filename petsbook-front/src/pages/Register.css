@@ -1,0 +1,14 @@
+.register{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
